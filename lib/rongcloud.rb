@@ -9,10 +9,11 @@ require 'rongcloud/api_operations/create'
 require 'rongcloud/api_operations/update'
 require 'rongcloud/api_operations/delete'
 require 'rongcloud/api_operations/list'
+require 'rongcloud/api_operations/show'
 
 # Resources
 require 'rongcloud/base'
-require 'rongcloud/user'
+require 'rongcloud/token'
 
 module Rongcloud
   class << self
