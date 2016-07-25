@@ -14,6 +14,8 @@ require 'rongcloud/api_operations/show'
 # Resources
 require 'rongcloud/base'
 require 'rongcloud/token'
+require 'rongcloud/user'
+require 'rongcloud/ban'
 
 module Rongcloud
   class << self
