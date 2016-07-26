@@ -18,6 +18,7 @@ require 'rongcloud/user'
 require 'rongcloud/ban'
 require 'rongcloud/blacklist'
 require 'rongcloud/wordfilter'
+require 'rongcloud/history'
 
 module Rongcloud
   class << self
