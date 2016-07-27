@@ -1,17 +1,9 @@
 module Rongcloud
   class History < Base
-    include Rongcloud::APIOperations::Delete
-    include Rongcloud::APIOperations::Show
-
-    def self.delete_url
-      '/message/history/delete.json'
-      #code
-    end
-
-    def self.show_url
-      '/message/history.json'
-      #code
-    end
+    @customer_avaliable_name = {
+      :delete => '/message/history/delete.json',
+      :where => '/message/history.json'
+    }
 
   end
   #code

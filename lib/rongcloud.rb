@@ -5,11 +5,7 @@ require "rongcloud/version"
 require 'unirest'
 
 # API operations
-require 'rongcloud/api_operations/create'
-require 'rongcloud/api_operations/update'
-require 'rongcloud/api_operations/delete'
-require 'rongcloud/api_operations/list'
-require 'rongcloud/api_operations/show'
+require 'rongcloud/api_operations/customer'
 
 # Resources
 require 'rongcloud/base'
@@ -19,6 +15,7 @@ require 'rongcloud/ban'
 require 'rongcloud/blacklist'
 require 'rongcloud/wordfilter'
 require 'rongcloud/history'
+require 'rongcloud/group'
 
 module Rongcloud
   class << self

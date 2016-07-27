@@ -1,22 +1,10 @@
 module Rongcloud
   class Wordfilter < Base
-    include Rongcloud::APIOperations::Create
-    include Rongcloud::APIOperations::Delete
-    include Rongcloud::APIOperations::List
-
-    def self.create_url
-      '/wordfilter/add.json'
-    end
-
-    def self.delete_url
-      '/wordfilter/delete.json'
-      #code
-    end
-
-    def self.list_url
-      '/wordfilter/list.json'
-      #code
-    end
+    @customer_avaliable_name = {
+      :create => '/wordfilter/add.json',
+      :delete => '/wordfilter/delete.json',
+      :all => '/wordfilter/list.json'
+    }
 
   end
   #code
