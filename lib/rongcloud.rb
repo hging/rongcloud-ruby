@@ -15,7 +15,8 @@ require 'rongcloud/ban'
 require 'rongcloud/blacklist'
 require 'rongcloud/wordfilter'
 require 'rongcloud/history'
-require 'rongcloud/group'
+require 'rongcloud/group/group'
+require 'rongcloud/group/ban'
 
 module Rongcloud
   class << self

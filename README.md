@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: 消息发送服务、服务器端实时消息路由
+TODO: 消息发送服务、服务器端实时消息路由、聊天室服务
 
 ## Development
 
