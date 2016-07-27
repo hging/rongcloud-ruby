@@ -15,8 +15,18 @@ require 'rongcloud/ban'
 require 'rongcloud/blacklist'
 require 'rongcloud/wordfilter'
 require 'rongcloud/history'
+
+# Group Resources
 require 'rongcloud/group/group'
 require 'rongcloud/group/ban'
+
+# Message Resources
+require 'rongcloud/message/private'
+require 'rongcloud/message/system'
+require 'rongcloud/message/group'
+require 'rongcloud/message/discussion'
+require 'rongcloud/message/chatroom'
+require 'rongcloud/message/broadcast'
 
 module Rongcloud
   class << self
