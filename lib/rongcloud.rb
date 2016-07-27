@@ -21,6 +21,7 @@ require 'rongcloud/group/group'
 require 'rongcloud/group/ban'
 
 # Message Resources
+require 'rongcloud/message/message'
 require 'rongcloud/message/private'
 require 'rongcloud/message/system'
 require 'rongcloud/message/group'
@@ -62,7 +63,7 @@ module Rongcloud
     end
 
     def request(method='get', url=api_host, params={})
-      Unirest.send(method, api_host + url, headers: generate_http_head, parameters: params)
+      Unirest.send(method, api_host + url, headers: generate_http_head, parameters: params).body
     end
 
     # def debug_mode?
