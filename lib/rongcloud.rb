@@ -29,6 +29,9 @@ require 'rongcloud/message/discussion'
 require 'rongcloud/message/chatroom'
 require 'rongcloud/message/broadcast'
 
+# SMS Resources
+require 'rongcloud/sms'
+
 module Rongcloud
   class << self
     API_HOST = 'https://api.cn.rong.io'
